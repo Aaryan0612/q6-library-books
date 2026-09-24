@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Let Us C",
+    "author": "Yashavant Kanetkar",
+    "publishedYear": 2020,
+    "available": true
+  },
+  {
+    "id": 2,
+    "title": "Second Book",
+    "author": "Arnesh ",
+    "publishedYear": 2008,
+    "available": true
+  },
+  {
+    "id": 3,
+    "title": "The Steve Jobs",
+    "author": "Tim Cook",
+    "publishedYear": 1999,
+    "available": true
+  },
+  {
+    "id": 4,
+    "title": "Art of not giving up",
+    "author": "DaviD Goggins",
+    "publishedYear": 1999,
+    "available": true
+  },
+  {
+    "id": 5,
+    "title": "Art of not giving up",
+    "author": "DaviD Goggins",
+    "publishedYear": 1999,
+    "available": true
+  },
+  {
+    "id": 6,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "publishedYear": 2018,
+    "available": true
+  }
+]
