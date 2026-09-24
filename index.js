@@ -1,14 +1,11 @@
 const express = require("express");
 const fs = require("fs");
-
 const app = express();
 const PORT = 4000;
-
 const booksFile = "./books.json";
 
 app.use(express.json());
 
-// POST /books
 app.post("/books", (req, res) => {
   const { title, author, publishedYear } = req.body;
 
@@ -31,7 +28,6 @@ app.post("/books", (req, res) => {
 
     const books = JSON.parse(data);
 
-    // Generate next id
     let id = 1;
 
     if (books.length > 0) {
@@ -66,7 +62,6 @@ app.post("/books", (req, res) => {
   });
 });
 
-// GET /books
 app.get("/books", (req, res) => {
   fs.readFile(booksFile, "utf8", (err, data) => {
     if (err) {
